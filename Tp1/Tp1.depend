@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1586867842 source:c:\users\maxi\desktop\2020 programacion 1\tp1\funciones.c
+	<stdio.h>
+
+1586867501 c:\users\maxi\desktop\2020 programacion 1\tp1\funciones.h
+
+1586867789 source:c:\users\maxi\desktop\2020 programacion 1\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	"funciones.h"
+
