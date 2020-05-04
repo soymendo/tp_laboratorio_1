@@ -230,6 +230,8 @@ void modificarEmployee(Employee arrayEmployers[],int cantEmp,Sector arraySector[
     char nombreAux[20];
     char apellidoAux[20];
     char confirma;
+    
+    mostrarEmployers(arrayEmployers,cantEmp,arraySector,cantSector);
 
     idAux=validarEntero("Ingrese id de empleado a modificar: ", "El id debe ser numerico: ",0,9999);
     encontrarIndice=findEmployeeById(arrayEmployers,cantEmp,idAux);
