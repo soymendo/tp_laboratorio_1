@@ -21,7 +21,19 @@ typedef struct
 
 #endif // ESTRUCTURAS_H_INCLUDED
 
+
+/** \brief hardcodea los empleados de acuerdo a un valor pasado por referencia
+ *
+ * \param arrayEmployers array de empleados
+ */
 void hardcodearEmployess(Employee arrayEmployers[]);
+
+
+
+/** \brief hardcodea los sectores de acuerdo a un valor pasado por referencia
+ *
+ * \param arrayEmployers array de sectores
+ */
 void hardcodearSector(Sector arraySector[]);
 
 
