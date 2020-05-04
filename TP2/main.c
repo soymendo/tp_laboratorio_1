@@ -15,7 +15,7 @@ int main()
 
     int lastId=15;
     int opcion = 0;
-    int flag=1;
+    int flag=0;
     int informe;
     int pedirId;
 
