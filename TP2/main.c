@@ -61,6 +61,7 @@ int main()
             }
             else
             {
+                mostrarEmployers(arrayEmployers,CANT,arraySector,SECT);
                 pedirId=validarEntero("Ingrese Id de empleado a eliminar: ","El Id debe ser numerico",0,9999);
                 removeEmployee(arrayEmployers,CANT,pedirId);
             }
